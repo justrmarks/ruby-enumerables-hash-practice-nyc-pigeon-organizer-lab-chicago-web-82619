@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
           pigeon_list[name][quality] = []
         end
         
-        pigeon_list[name][quality].push(type)
+        pigeon_list[name][quality].push(type.to_s)
         
         
         
